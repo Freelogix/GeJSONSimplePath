@@ -1,6 +1,7 @@
 # GeJSONSimplePath
 SimplePath is a simple manipulator for JSON structures in GeJSON
 
+```
 String jsonStr="{\"book\":{\"pages\":15}}";
 JSONParser parser = new JSONParser(jsonStr);
  
@@ -25,3 +26,4 @@ try {
 	}catch (ManipulatorException e) {
 		System.out.println(e.getMessage());
 }
+```
